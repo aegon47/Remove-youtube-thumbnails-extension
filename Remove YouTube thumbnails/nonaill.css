@@ -1,0 +1,18 @@
+ytd-browse img, ytd-browse  #img , ytd-browse  .style-scope yt-img-shadow{
+	
+    filter: blur(100px);
+}
+
+
+ytd-browse img:hover, ytd-browse  #img:hover , ytd-browse  .style-scope yt-img-shadow:hover{
+	
+    filter: blur(0px);
+}
+ytd-browse #video-title{
+
+    text-transform:lowercase;
+
+}
+.metadata.ytd-compact-video-renderer {
+	padding-right: 0 !important;
+}
